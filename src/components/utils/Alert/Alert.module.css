@@ -1,0 +1,38 @@
+@keyframes btn{
+	0%{
+       transform : translateY(-20px);
+       opacity: 0;
+	}
+	100%{
+		transform :  translateY(0px);
+		opacity: .8;
+	}
+}
+.containerDis{
+	animation: btn .5s;
+	top: 15%;
+    position: fixed;
+	width: 30%;
+	height: 5%;
+	opacity: .8;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+	background-color: lightcoral;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.containerHid{
+	position: fixed;
+	display: none;
+}
+.btn{
+	font-size: 1.2rem;
+	background: none;
+	padding: 1%;
+}
+.btn:active{
+	outline: none;
+}
+.msg{
+	font-size: 1.2rem;
+}

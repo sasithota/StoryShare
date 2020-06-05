@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+	padding : 0px;
+	margin : 0px;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,body,#root{
+  height: 100%;
+  width: 100%;
+  font-family: 'Reem Kufi', sans-serif;
+}
+#root{
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E5E5E5;
+  font-size: 1vw;
+}
+button{
+  border: none;
+  cursor: pointer;
+  font-family: 'Reem Kufi', sans-serif;
+}
+button:focus{
+  outline: none;
+  border: none;
 }
