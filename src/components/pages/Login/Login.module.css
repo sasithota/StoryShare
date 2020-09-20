@@ -1,4 +1,4 @@
-.container{
+.container {
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -6,6 +6,6 @@
 	justify-content: space-evenly;
 	align-items: center;
 }
-.constainer p{
+.constainer p {
 	height: 5%;
 }

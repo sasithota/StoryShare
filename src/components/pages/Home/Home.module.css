@@ -1,19 +1,4 @@
-.postContainer{
-    width: 60%;
-    height: 95%;
-    overflow: scroll;
-    overflow-x: hidden;
-    
-}
-::-webkit-scrollbar {
-    width: 3px;
-}
-::-webkit-scrollbar-thumb {
-    background: lightcoral;
-    border-radius: 20%; /* make scrollbar transparent */
-}
-
-.postFormContainer{
+.postFormContainer {
     width: 37%;
     height: 95%;
     display: flex;

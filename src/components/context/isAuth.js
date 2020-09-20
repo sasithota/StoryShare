@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 const isAuthCon = React.createContext();
 const msgCon = React.createContext();
-export {isAuthCon,msgCon};
+export { isAuthCon, msgCon };

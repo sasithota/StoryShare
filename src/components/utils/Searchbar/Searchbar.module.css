@@ -1,38 +1,36 @@
-.container{
+.container {
 	height: 40%;
 	text-align: center;
 }
-.bar{
+.bar {
 	margin-top: 10%;
 	padding: 5%;
 	border: none;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 	border-bottom: 2px solid orange;
 }
-.bar:focus{
+.bar:focus {
 	outline: none;
-
 }
-.resultContainer{
+.resultContainer {
 	height: 50%;
 	overflow-y: auto;
-	
 }
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
+	width: 0px;
+	background: transparent; /* make scrollbar transparent */
 }
-.result{
+.result {
 	margin-top: 3%;
 	height: 30%;
 	background-color: white;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 	width: 100%;
 }
-.btn{
+.btn {
 	width: 100%;
-	height: 100%
+	height: 100%;
 }
-.btn:hover{
-   background-color: orange
+.btn:hover {
+	background-color: orange;
 }
