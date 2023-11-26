@@ -1,6 +1,6 @@
 # StoryShare
 
-StoryShare is a React Native project, inspired by Instagram, featuring photo uploads, likes, comments, and profile management.
+📱 📷 StoryShare is a React Native project, inspired by Instagram, featuring photo uploads, likes, comments, and profile management.
 
 ## Features
 
